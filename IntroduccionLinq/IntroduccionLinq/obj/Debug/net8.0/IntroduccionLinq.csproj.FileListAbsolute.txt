@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\bin\Debug\net8.0\IntroduccionLinq.exe
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\bin\Debug\net8.0\IntroduccionLinq.deps.json
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\bin\Debug\net8.0\IntroduccionLinq.runtimeconfig.json
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\bin\Debug\net8.0\IntroduccionLinq.dll
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\bin\Debug\net8.0\IntroduccionLinq.pdb
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.AssemblyInfo.cs
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.sourcelink.json
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.dll
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\refint\IntroduccionLinq.dll
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.pdb
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\IntroduccionLinq.genruntimeconfig.cache
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\Guias-LINQ\IntroduccionLinq\IntroduccionLinq\obj\Debug\net8.0\ref\IntroduccionLinq.dll
