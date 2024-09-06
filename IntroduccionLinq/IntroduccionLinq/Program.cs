@@ -158,3 +158,10 @@ if (CasaConFirsthOrDedault == null ) {
 Console.WriteLine("existe !Si existe!");
 */
 #endregion
+#region ElementAt
+var terceraCasa = ListaCasas.ElementAt(2);
+Console.WriteLine($"La tercera casa es {terceraCasa.dameDatosCasa()}");
+
+var casaError = ListaCasas.ElementAtOrDefault(3);
+if (casaError != null) { Console.WriteLine($"La tercera casa es {casaError.dameDatosCasa()}"); }
+#endregion
