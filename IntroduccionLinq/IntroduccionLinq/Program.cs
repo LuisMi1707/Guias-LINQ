@@ -281,9 +281,18 @@ Console.WriteLine(h1.datosHabitante());
 
 #endregion
 #region OrderBy
+
 /*
+   // Ordena la lista de habitantes por edad en orden ascendente usando OrderBy.
+   // Luego imprime los datos de cada habitante en la lista ordenada.
+
 var edadA = ListaHabitantes.OrderBy(x => x.Edad);
-var edadAC = from vt in ListaHabitantes orderby vt.Edad select vt;
+// Utiliza una consulta LINQ para ordenar la lista por edad en orden ascendente
+var edadAC = from vt in ListaHabitantes
+             orderby vt.Edad // Ordena por edad en orden ascendente
+             select vt;
+
+// Recorre la lista ordenada e imprime los datos de cada habitante
 foreach (var edad in edadAC)
 {
     Console.WriteLine(edad.datosHabitante());
@@ -291,25 +300,45 @@ foreach (var edad in edadAC)
 */
 #endregion
 #region OrderBYDescending()
-/* var listaEdad = ListaHabitantes.OrderByDescending(x => x.Edad);
-foreach (Habitante h in listaEdad) { 
+/*
+   
+   // Ordena la lista de habitantes por edad en orden descendente usando OrderByDescending.
+   // Luego imprime los datos de cada habitante en la lista ordenada.
+
+var listaEdad = ListaHabitantes.OrderByDescending(x => x.Edad);
+foreach (Habitante h in listaEdad)
+{
     Console.WriteLine(h.datosHabitante());
 }
+
+// Imprime una línea de separación en la consola
 Console.WriteLine("-------------------------------------------");
-var ListaEdad2 = from h in ListaHabitantes orderby h.Edad descending select h;
+
+
+   // Utiliza una consulta LINQ para ordenar la lista de habitantes por edad en orden descendente.
+   // Luego imprime los datos de cada habitante en la lista ordenada.
+
+var ListaEdad2 = from h in ListaHabitantes
+                 orderby h.Edad descending // Ordena por edad en orden descendente
+                 select h;
+
 foreach (Habitante h in ListaEdad2)
 {
     Console.WriteLine(h.datosHabitante());
 }
+
 */
 #endregion
 #region ThenBy
-//var habitantes3 = ListaHabitantes.OrderBy(x => x.Edad).ThenBy(x => x.Nombre);
+// Ordena la lista de habitantes primero por edad en orden ascendente y luego por nombre en orden ascendente
+// var habitantes3 = ListaHabitantes.OrderBy(x => x.Edad).ThenBy(x => x.Nombre);
 
+// Consulta LINQ para ordenar los habitantes primero por edad en orden ascendente y luego por nombre en orden descendente
+var edadATA = from h in ListaHabitantes
+              orderby h.Edad, h.Nombre descending // Ordena por edad (ascendente por defecto) y luego por nombre (descendente)
+              select h;
 
-
-var edadATA = from h in ListaHabitantes orderby h.Edad, h.Nombre descending select h;
-
+// Recorre la lista ordenada e imprime los datos de cada habitante
 foreach (var h in edadATA)
 {
     Console.WriteLine(h.datosHabitante());
@@ -317,10 +346,15 @@ foreach (var h in edadATA)
 
 Console.WriteLine("------------------");
 
-//var habitantes4 = ListaHabitantes.OrderBy(x => x.Edad).ThenByDescending(x => x.Nombre);
+// Ordena la lista de habitantes primero por edad en orden ascendente y luego por nombre en orden descendente
+// var habitantes4 = ListaHabitantes.OrderBy(x => x.Edad).ThenByDescending(x => x.Nombre);
 
-var lista4 = from h in ListaHabitantes orderby h.Edad, h.Nombre ascending select h; 
+// Consulta LINQ para ordenar los habitantes primero por edad en orden ascendente y luego por nombre en orden ascendente
+var lista4 = from h in ListaHabitantes
+             orderby h.Edad, h.Nombre ascending // Ordena por edad (ascendente por defecto) y luego por nombre (ascendente)
+             select h;
 
+// Recorre la lista ordenada e imprime los datos de cada habitante
 foreach (var h in lista4)
 {
     Console.WriteLine(h.datosHabitante());
