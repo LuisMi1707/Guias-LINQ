@@ -164,4 +164,7 @@ Console.WriteLine($"La tercera casa es {terceraCasa.dameDatosCasa()}");
 
 var casaError = ListaCasas.ElementAtOrDefault(3);
 if (casaError != null) { Console.WriteLine($"La tercera casa es {casaError.dameDatosCasa()}"); }
+
+var segundoHabitante = (from objetoTem in ListaHabitantes select objetoTem).ElementAtOrDefault(2);
+Console.WriteLine($" segundo habitante es : {segundoHabitante.datosHabitante()}");
 #endregion
